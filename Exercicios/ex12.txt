@@ -1,0 +1,22 @@
+﻿string usuarioCorreto = "aluno";
+string senhaCorreta = "1234";
+string usuarioDigitado;
+string senhaDigitada;
+
+do
+{
+Console.WriteLine("Digite o nome do usuário");
+usuarioDigitado = Convert.ToString(Console.ReadLine());
+Console.WriteLine("Digite a senha do usuário");
+senhaDigitada = Convert.ToString(Console.ReadLine());
+    if (usuarioDigitado != usuarioCorreto)
+    {
+        Console.WriteLine("Usuário incorreto");
+    }
+    if (senhaDigitada != senhaCorreta)
+    {
+        Console.WriteLine("Senha incorreta");
+    }
+}
+while (usuarioDigitado != usuarioCorreto || senhaDigitada != senhaCorreta);
+Console.WriteLine($"Login efetuado com sucesso. Bem vindo, {usuarioCorreto}");
