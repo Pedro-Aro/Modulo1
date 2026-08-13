@@ -1,0 +1,19 @@
+﻿int idadeParticipante = 17;
+bool temAutorizacaoPais = true;
+bool jaJogouAntes = true;
+Console.WriteLine($"Idade: {idadeParticipante}");
+Console.WriteLine($"Autorização: {temAutorizacaoPais}");
+Console.WriteLine($"Já Jogou: {jaJogouAntes}");
+Console.WriteLine();
+
+
+bool maiorOuIgual16 = idadeParticipante>=16;
+bool exatamente17 = idadeParticipante==17;
+Console.WriteLine($"Idade maior ou igual a 16 {maiorOuIgual16}");
+Console.WriteLine($"Idade igual a 17: {exatamente17}");
+Console.WriteLine();
+
+Console.WriteLine($"Pode Jogar 1: {maiorOuIgual16 && temAutorizacaoPais}");
+Console.WriteLine($"Pode Jogar 2: {maiorOuIgual16 || jaJogouAntes}");
+Console.WriteLine($"Não pode jogar: {!temAutorizacaoPais}.");
+

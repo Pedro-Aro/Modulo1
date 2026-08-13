@@ -11,5 +11,4 @@ int frequencia = 75;
 bool aprovado = media >= 7 && frequencia >= 75;
 Console.WriteLine($"Frequeência = {frequencia}%");
 Console.WriteLine($"Média = {media:F2}");
-Console.WriteLine($"Aprovado? {aprovado}");
-
+Console.WriteLine($"Aprovado? {aprovado}.");
