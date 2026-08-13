@@ -1,0 +1,27 @@
+﻿double nota = 10.00;
+Console.WriteLine($"Nota do aluno: {nota}");
+
+if(nota<=10 && nota >= 9)
+{
+    Console.WriteLine("Conceito A");
+}
+else if(nota<9 && nota >= 8)
+{
+    Console.WriteLine("Conceito B");
+}
+else if(nota<8 && nota >= 7)
+{
+    Console.WriteLine("Conceito C");
+}
+else if(nota<7 && nota >= 6)
+{
+    Console.WriteLine("Conceito D");
+}
+else if(nota<6 && nota >= 0)
+{
+    Console.WriteLine("Conceito F");
+}
+else
+{
+    Console.WriteLine("Erro na nota (menor que 0 ou maior que 10)");
+}
