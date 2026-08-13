@@ -1,0 +1,8 @@
+﻿double Preco1 = 20;
+double Preco2 = 15.5;
+double Preco3 = 10;
+double ValorTotal = Preco1 + Preco2 + Preco3;
+Console.WriteLine($"Preço do produto 1: {Preco1:F2}");
+Console.WriteLine($"Preço do produto 2: {Preco2:F2}");
+Console.WriteLine($"Preço do produto 3: {Preco3:F2}");
+Console.WriteLine($"O valor total da compra é: {ValorTotal:F2}");
