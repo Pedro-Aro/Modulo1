@@ -1,0 +1,24 @@
+﻿double produto = 40;
+double precoMaximo = 50;
+
+
+static double VerificarPrecoPromocional(double produto,double precoMaximo)
+{
+    Console.WriteLine("Checando se o produto está em promoção...");
+    if (produto <= precoMaximo)
+    {
+        Console.WriteLine("Produto está em promoção!");
+    }
+    else
+    {
+        Console.WriteLine("Produto não está em promoção.");
+    }
+    return produto;
+}
+VerificarPrecoPromocional(produto,precoMaximo);
+Console.WriteLine();
+
+produto = 60;
+VerificarPrecoPromocional(produto,precoMaximo);
+
+
